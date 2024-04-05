@@ -14,7 +14,17 @@ namespace Assignment3.Utility
     { 
 
 // To store data
-     
+        private object data; 
+        
+        public User Value {get; set;}
+        
+        public Node Next { get; set; }
+      
+        public Node(User value)
+        {
+            Value = value;
+            Next = null;
+        }
 
         public Node(object data)
         {
