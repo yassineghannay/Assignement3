@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 namespace Assignment3.Utility
 {
 
+        // exception thrown when an operation to remove an element from the linked list cannot be performed
     public class CannotRemoveException : Exception
     {
         public CannotRemoveException() : base() { }
