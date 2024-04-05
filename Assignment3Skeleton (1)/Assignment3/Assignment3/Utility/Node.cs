@@ -12,17 +12,9 @@ namespace Assignment3.Utility
 //Set Node class up
     public class Node
     { 
-        private object data; 
-        
-        public User Value {get; set;}
-        
-        public Node Next { get; set; }
-      
-        public Node(User value)
-        {
-            Value = value;
-            Next = null;
-        }
+
+// To store data
+     
 
         public Node(object data)
         {
