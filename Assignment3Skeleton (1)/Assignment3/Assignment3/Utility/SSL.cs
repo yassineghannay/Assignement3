@@ -31,7 +31,8 @@ namespace Assignment3.Utility
             head = null;
             listSize = 0;
         }
-
+        
+        // Checks if the linked list is empty.        
         public bool IsEmpty()
         {
             return head == null;
@@ -69,7 +70,7 @@ namespace Assignment3.Utility
             }
             listSize++;
         }
-
+        // Adds an element at the specified index in the linked list.
         public void Add(User value, int index)
         {
             if (index < 0 || index > listSize)
@@ -159,7 +160,7 @@ namespace Assignment3.Utility
         {
             return GetNodeAtIndex(index).Value;
         }
-
+        // Returns the index of the specified object
         public int IndexOf(User value)
         {
             int index = 0;
