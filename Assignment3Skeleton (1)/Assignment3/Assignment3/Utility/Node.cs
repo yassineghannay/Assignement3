@@ -34,3 +34,8 @@ namespace Assignment3.Utility
         }
     }
 }
+// Constructor to initialize a node with a specified data object (not used in this implementation)
+        //public Node(object data)
+        //{
+        //    this.data = data;
+        //}
