@@ -135,7 +135,7 @@ namespace Assignment3.Utility
             listSize--;
         }
 
-        public void Remove(int index)
+       public void Remove(int index)
         {
             if (index < 0 || index >= listSize)
             {
