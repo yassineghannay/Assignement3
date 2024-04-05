@@ -196,3 +196,4 @@ namespace Assignment3.Utility
     }
 }
 
+//The class has methods for common linked list operations such as adding elements to the beginning and end of the list (AddFirst, AddLast), adding an element at a specific index (Add), removing elements from the beginning and end of the list (RemoveFirst, RemoveLast), removing an element at a specific index (Remove), retrieving the value at a specific index (GetValue), finding the index of a specific value (IndexOf), and checking if a value exists in the list (Contains).
