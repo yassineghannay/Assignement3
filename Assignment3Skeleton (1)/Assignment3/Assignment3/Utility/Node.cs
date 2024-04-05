@@ -9,17 +9,19 @@ using System.Threading.Tasks;
 //test commit2.0 visual studio
 namespace Assignment3.Utility
 {
-//Set Node class up
+    //Set Node class up
     public class Node
     { 
 
-// To store data
+       // To store data
         private object data; 
         
         public User Value {get; set;}
         
         public Node Next { get; set; }
-      
+
+
+        // Node constructor
         public Node(User value)
         {
             Value = value;
