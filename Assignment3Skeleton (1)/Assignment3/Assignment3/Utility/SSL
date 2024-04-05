@@ -17,8 +17,6 @@ namespace Assignment3.Utility
         public CannotRemoveException(string message, Exception innerException) : base(message, innerException) { }
     }
 
-
-
      class SSL : ILinkedListADT
     {
         private Node head;
