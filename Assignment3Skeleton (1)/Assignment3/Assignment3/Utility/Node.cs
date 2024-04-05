@@ -11,14 +11,12 @@ namespace Assignment3.Utility
 {
 //Set Node class up
     public class Node
-    {
-        private object data;
-
-        public User Value { get; set; }
-
+    { 
+        private object data; 
+        
+        public User Value {get; set;}
         
         public Node Next { get; set; }
-
       
         public Node(User value)
         {
