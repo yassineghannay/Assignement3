@@ -1,1 +1,1 @@
-# Assignement3
+# Assignement3-  Using C#, the project implements an abstract data type (ADT) for singly linked lists, including functions like prepend, append, remove, insert, replace, and many others. This linked list will be tested for correctness and reliability, including scenarios such as insertion, deletion, and retrieval
